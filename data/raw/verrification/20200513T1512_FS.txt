@@ -1,0 +1,18 @@
+--------------------------------------------------------------
+Title,
+Sub Title,
+Created By,LengthStandards
+Created Date/Time,14/05/2020 4:16:12 p.m.
+Revised Date,
+Revised By,LengthStandards
+Revision No.,0
+Start time of part program,
+End time of part program,11/05/2020 12:42:17 p.m.
+Result Table
+14/05/2020 4:16:27 p.m.
+--------------------------------------------------------------
+Parameter LSCI,Roundness(RONt),DX,DY,DL,DA,Peak(RONp),Valley(RONv),Peak Count,Mean Roundness
+Roundness<Round_1>,0.973µm,-0.744µm,1.891µm,2.032µm,111.49°,0.092µm,0.880µm,12,0.028µm
+
+Extracted line,Filter Setting,Z Position
+Rotate-Outer(VERT)<RD_1>,Gaussian-50%Low[50 UPR],-52.82 mm
