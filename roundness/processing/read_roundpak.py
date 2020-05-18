@@ -27,7 +27,7 @@ def read_RA2200(fname, comment_rows=9):
 def read_result(fname, start_row=14):
     """reads result file from roundpak into pandas dataframe
 
-    These files difer depending on Roundpak settings, this reads the default version
+    These files may differ depending on Roundpak settings, this reads the default/current version 
 
     Arguments:
         fname {string} -- any valid string path is acceptable
@@ -77,7 +77,7 @@ def read_result_list(fnames, ids, start_row=14):
         start_row {int} -- first row of file to read (default: {14})
 
     Returns:
-        [type] -- contains one row of data per file
+        [pandas DataFrame] -- contains one row of data per file
     """
     df_list = []
     for fname, id_field in zip(fnames, ids):
