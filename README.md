@@ -37,4 +37,4 @@ C:.
 ```
 Note the config.py file that sets data and result folders is now under notebooks. There may be reason to have project specific code (for example a `do_all_analyis.py` file) in the `/flick_stds_2020-05` folder that would need to know where the data is. This could either `import notebooks.config` or recreate.
 
-aksdfkad;fjlk
+kaf;sdlfkasdl;fk
