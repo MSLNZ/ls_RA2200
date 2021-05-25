@@ -24,6 +24,15 @@ def read_RA2200(fname, comment_rows=9):
     return d[:, 2], np.radians(d[:, 1])
 
 
+def read_RA2200_df(fname, comment_rows=18, drop_cols=[]):
+    """read roundness trace into pandas dataframe"""
+    df = pd.read_csv(
+        fname, skiprows=comment_rows, header=0, skipfooter=1, engine="python"
+    )
+    df = df.drop(drop_cols, axis=1)
+    return df
+
+
 def read_result(fname, start_row=14):
     """reads result file from roundpak into pandas dataframe
 
